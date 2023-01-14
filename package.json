@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/lydiaswan15/CSE341/issues"
   },
-  "homepage": "https://github.com/lydiaswan15/CSE341#readme"
+  "homepage": "https://github.com/lydiaswan15/CSE341#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "mongodb": "^4.13.0"
+  }
 }
