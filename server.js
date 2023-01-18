@@ -2,8 +2,8 @@ var express = require('express');
 var app = express();
 const port = process.env.PORT || 3000
 
-app.use('/', require('./api/routes'));
+app.use('/', require('./routes'));
 
   app.listen(port, ()=>{
-    console.log(`server running on port 3000 ${port}`);
+    console.log(`server running on port ${port}`);
   })
